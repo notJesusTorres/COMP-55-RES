@@ -32,7 +32,7 @@ similiarly, the pseudo will follow closely to each other.
 For the case of three options such as the difficulty
 
 // Set a default value (on) to the variable 
-// If option one is on
+// If option one is on`
 //    change option 2 as off
 //    change option 3 as off
 //    write and overwrite result into file
