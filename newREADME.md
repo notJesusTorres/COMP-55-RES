@@ -48,6 +48,22 @@ For the case of three options such as the difficulty
 For updating the values in the same section as WAVE
 //read and input values into where difficulty is assigned.
 
+Section 3: 
+
+When starting the game, the user is prompted with the options as stated before.
+The user chooses the settings option and can change the difficulty and sound.
+Depending on the option selected, the routine will write a string, assigned to the prefernce, into
+the appropriate file. Each option will have its own file.
+In order to have these change saved, the program will have a soft reset. 
+This soft reset will just terminate the program to allow the files to update.
+If the player decides to change their mind they are able to repear the process and the
+soft reset will overwrite the option when leaving the settings menu.
+When the player decides to finally play. The following files will be read and assgined to the 
+the difficulty and sound. If the strings are equal to the chosen option, the
+difficulty will be assigne appropriately. So if music is selected as on, it will play and
+if difficulty is easy, the enemy will not be as deadly. 
+
+
 
 
  
